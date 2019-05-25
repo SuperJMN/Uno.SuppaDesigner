@@ -84,6 +84,12 @@
   <ItemGroup>
     <AndroidResource Include="Resources\values\Styles.xml" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Uno.Zafiro\Uno.Zafiro.csproj">
+      <Project>{a472710c-32ef-4e61-b37a-62ff47b5f394}</Project>
+      <Name>Uno.Zafiro</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="..\Uno.SuppaDesigner.Shared\Uno.SuppaDesigner.Shared.projitems" Label="Shared" Condition="Exists('..\Uno.SuppaDesigner.Shared\Uno.SuppaDesigner.Shared.projitems')" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- This will force the generation of the APK when not buildig inside visual studio -->

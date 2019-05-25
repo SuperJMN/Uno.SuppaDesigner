@@ -1,23 +1,20 @@
-﻿using System;
+﻿#if NETFX_CORE
+using Popup = Windows.UI.Xaml.Controls.Primitives.Popup;
+#else
+using Popup = Windows.UI.Xaml.Controls.Popup;
+#endif
+using System;
 using System.Reactive.Linq;
 using System.Windows.Input;
 using Windows.Foundation;
 using Windows.UI;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
-using Windows.UI.Xaml.Controls.Primitives;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Microsoft.Xaml.Interactivity;
 
-
-#if NETFX_CORE
-using Popup = Windows.UI.Xaml.Controls.Primitives.Popup;
-#else
-using Popup = Windows.UI.Xaml.Controls.Popup;
-#endif
-
-namespace Zafiro.Uwp.Controls.Behaviors
+namespace Uno.Zafiro
 {
     public class RubberBandBehavior : Behavior<FrameworkElement>
     {

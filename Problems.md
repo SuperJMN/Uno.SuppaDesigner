@@ -57,3 +57,5 @@ Although the type is correctly defined, this makes the build fail:
 ```
 With this error
 > D:\Repos\SuperJMN\Uno.SuppaDesigner\Uno.Zafiro\Themes\Generic.xaml(54,12): XamlCompiler error WMC0110: Unknown target type 'ctr:HeaderedContentControl'
+
+## 💣 SymbolIcon doesn't render in the Web head

@@ -58,4 +58,8 @@ Although the type is correctly defined, this makes the build fail:
 With this error
 > D:\Repos\SuperJMN\Uno.SuppaDesigner\Uno.Zafiro\Themes\Generic.xaml(54,12): XamlCompiler error WMC0110: Unknown target type 'ctr:HeaderedContentControl'
 
+## Unsupported features
+
 ## 💣 SymbolIcon doesn't render in the Web head
+
+## 💣 No pickers: There no way to select a local file. For instance, you couldn't upload a file to the server that pretty much limits file processing to URLs of files already uploaded.

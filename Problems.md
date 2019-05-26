@@ -62,4 +62,5 @@ With this error
 
 ## 💣 SymbolIcon doesn't render in the Web head
 
-## 💣 No pickers: There no way to select a local file. For instance, you couldn't upload a file to the server that pretty much limits file processing to URLs of files already uploaded.
+## 💣 No pickers: There no way to select a local file. 
+For instance, you couldn't upload a file to the server that pretty much limits file processing to URLs of files already uploaded.
